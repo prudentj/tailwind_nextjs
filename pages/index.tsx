@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Portfolio from './portfolio'
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +13,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">
+      <main //className={styles.main}
+      >
+         {/* <h1 className="text-3xl font-bold underline bg-red-900">
+            Hello world!
+          </h1> */}
+        {/* <h1 className="text-3xl font-bold underline">
         Hello world!
-      </h1>
-
+        </h1> */}
+        <Portfolio/>
       </main>
 
       <footer className={styles.footer}>
